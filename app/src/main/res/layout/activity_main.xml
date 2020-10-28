@@ -42,7 +42,7 @@
         tools:layout_editor_absoluteY="164dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonlogin"
         android:onClick="clickHandler"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
         tools:layout_editor_absoluteY="221dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttoncancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="cancel"
