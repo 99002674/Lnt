@@ -14,7 +14,7 @@
 
     <TextView
         android:id="@+id/textViewSubtitle"
-        android:textColor="abc123"
+        android:textColor="#abc123"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView" />

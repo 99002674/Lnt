@@ -37,25 +37,35 @@
         android:id="@+id/checkBox"
         android:layout_width="147dp"
         android:layout_height="42dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="63dp"
         android:text="Remember Me"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="164dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/buttonlogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword" />
 
     <Button
         android:id="@+id/buttonlogin"
-        android:onClick="clickHandler"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="clickHandler"
         android:text="Login"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttoncancel"
+        app:layout_constraintStart_toStartOf="@+id/checkBox" />
 
     <Button
         android:id="@+id/buttoncancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="82dp"
         android:text="cancel"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintStart_toEndOf="@+id/buttonlogin"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
